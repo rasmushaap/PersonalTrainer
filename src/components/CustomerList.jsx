@@ -93,7 +93,7 @@ export default function CustomerList() {
         })
         .then(response => {
             if(response.ok) {
-                setMsgSnackbar("Auto päivitetty onnistuneesti!")
+                setMsgSnackbar("Asiakas päivitetty onnistuneesti!")
                 setOpenSnackbar(true)
                 return response.json()
             } else {
